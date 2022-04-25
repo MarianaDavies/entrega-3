@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>MD Landing</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="assets/logo-mdavies.png" alt="logo-png">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="bar-btn">
+                <img src="assets/menu_white_24dp.svg" alt="icon-bar">
+            </label>
+            <ul class="nav-list">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#inicio">Sobre Mi</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="about-section" id="inicio">
+            <div class="title-container">
+                
+                <div class="pin-container">
+                    <h1>Mariana Davies</h1>
+                    <div class="img-pin-container">
+                        <img src="assets/pin-svgrepo-com.svg" alt="pin-icon">
+                        <p>Trelew-Chubut, Argentina</p>
+                    </div>   
+                </div>
+                <img src="assets/photo.jpg" alt="photo-aboutme" class="perfil-photo">
+                <div class="vertical-text">
+                    <p>Full Stack Developer</p>
+                </div>
+            </div>
+            <div class="about-container">
+                <h2>Sobre Mi <span>.</span></h2>
+                <p>Estudio Desarrollo Web Full Stack en Nucba. Me interesa todo lo que tiene que ver con la estética, el diseño y la tecnología. Soy proactiva, autodidacta y siempre me encuentro tratando de aprender cosas nuevas de este amplio mundo que es la programación.</p>
+                <p>Me gustaría trabajar de forma remota para alguna compañia importante, formar parte de un equipo de personas con las cuales compartir conocimientos y experiencias, crecer profesionalmente y mejorar habilidades.</p>
+            </div>
+        </section>
+        <section class="portfolio-section" id="portfolio">
+            <h2>Portfolio <span>.</span> </h2>
+            <div class="img-portfolio-container">
+                <a href="#" class="img-portfolio 1"><img src="assets/pagina-web.jpg" alt="pagina-web-photo"><p>Página Web</p></a>
+                <a href="#" class="img-portfolio 2"><img src="assets/app-movil.jpg" alt="coffee-shop"><p>App Móvil</p></a>
+                <a href="#" class="img-portfolio 3"><img src="assets/billetera-virtual.jpg" alt="virtual-wallet"><p>Billetera Virtual</p></a>
+            </div>
+        </section>
+        <aside id="contacto">
+            <h2>Contacto <span>.</span></h2>
+            <form action="">
+                <input type="text" placeholder="Nombre y Apellido" class="input">
+                <input type="email" placeholder="Email" class="input">
+                <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Escribe tu mensaje..." class="contact"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </aside>
+        <footer>
+            <p>Hecho por Mariana Davies</p>
+            <div class="social-media-container">
+                <a href=""><img src="assets/github-svgrepo-com.svg" alt="github-icon"></a>
+                <a href=""><img src="assets/linkedin-svgrepo-com.svg" alt="linkedin-icon"></a>
+                <a href=""><img src="assets/twitter-svgrepo-com.svg" alt="twitter-icon"></a>
+                <a href=""><img src="assets/whats-app-svgrepo-com.svg" alt="Whatsapp-icon"></a>
+            </div>
+        </footer>
+    </main>
+    
+</body>
+</html>
